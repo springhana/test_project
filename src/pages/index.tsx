@@ -14,7 +14,7 @@ export default function Home() {
     <div className="home">
       <header>
         <div className="A">
-          <span>Logo</span>
+          <span>테스트</span>
           <input type="text" className="search" />
         </div>
 
