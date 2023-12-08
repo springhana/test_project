@@ -26,6 +26,7 @@
     "react-force-graph-2d": "^1.25.2",
     "react-force-graph-3d": "^1.24.0",
     "react-icons": "^4.11.0",
+    "react-image-crop": "^11.0.1",
     "yarn": "^1.22.19"
   },
   "devDependencies": {

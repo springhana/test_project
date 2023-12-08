@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.home {
-  width: 100%;
+
+body {
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   background-color: #f8f8f8;
