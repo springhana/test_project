@@ -1,0 +1,15 @@
+diff --git a/node_modules/vditor/src/ts/toolbar/EditMode.ts b/node_modules/vditor/src/ts/toolbar/EditMode.ts
+index 710e717..5e4a6da 100644
+--- a/node_modules/vditor/src/ts/toolbar/EditMode.ts
++++ b/node_modules/vditor/src/ts/toolbar/EditMode.ts
+@@ -159,8 +159,8 @@ export class EditMode extends MenuItem {
+         const panelElement = document.createElement("div");
+         panelElement.className = `vditor-hint${menuItem.level === 2 ? "" : " vditor-panel--arrow"}`;
+         panelElement.innerHTML = `<button data-mode="wysiwyg">${window.VditorI18n.wysiwyg} &lt;${updateHotkeyTip("⌥⌘7")}></button>
+-<button data-mode="ir">${window.VditorI18n.instantRendering} &lt;${updateHotkeyTip("⌥⌘8")}></button>
+-<button data-mode="sv">${window.VditorI18n.splitView} &lt;${updateHotkeyTip("⌥⌘9")}></button>`;
++<button data-mode="ir">${window.VditorI18n.instantRendering} 한국어 &lt;${updateHotkeyTip("⌥⌘8")}></button>
++<button data-mode="sv"></button>`;
+ 
+         this.element.appendChild(panelElement);
+ 
